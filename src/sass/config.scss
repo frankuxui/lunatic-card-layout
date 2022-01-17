@@ -1,0 +1,24 @@
+
+
+//
+// Config
+
+//
+// Roboto
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+$enable-body-flex: true;
+
+.App{
+  @if( $enable-body-flex ){
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+  
+    .footer{
+      margin-top: auto !important;
+    }
+  }
+}
